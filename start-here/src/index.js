@@ -1,13 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import 'font-awesome/css/font-awesome.min.css';
-import 'bootstrap-css-only/css/bootstrap.min.css';
-import 'mdbreact/dist/css/mdb.css';
-import './index.css';
-import App from './App';
+import React from "react";
+import ReactDom from "react-dom";
 
-import registerServiceWorker from './registerServiceWorker';
-
-ReactDOM.render( <App /> , document.getElementById('root'));
-
-registerServiceWorker();
+//JSX
+ReactDom.render(
+    <React.Fragment>
+        <h1>Hello World</h1>
+        <h2>Sub Heading</h2>
+    </React.Fragment>, document.getElementById('root'));
