@@ -92,7 +92,7 @@ class App extends Component{
                             </div>
                             <MDBRow className="mb-4">
                                 <MDBCol xl="3" md="6" className="mx-auto text-center">
-                                    <MDBBtn color="info" rounded onClic={this.toggleModal}>Add Event
+                                    <MDBBtn color="info" rounded onClick={this.toggleModal}>Add Event
                                     </MDBBtn>
                                 </MDBCol>
                             </MDBRow>
